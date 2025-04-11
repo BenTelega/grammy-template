@@ -6,4 +6,11 @@ composer.command("start", async (ctx) => {
   await ctx.reply("Привет");
 });
 
+
+
+composer.command('test', async (ctx) => { 
+	await ctx.reply("test");
+});
+
+
 export default composer;
