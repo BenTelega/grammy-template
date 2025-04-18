@@ -1,8 +1,6 @@
-import { Composer } from "grammy/mod.ts";
+import { Composer, InlineKeyboard } from "grammy/mod.ts";
 
 const composer = new Composer();
-
-
 
 
 composer.command("start", async (ctx) => {
